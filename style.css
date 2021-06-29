@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16PX;
+}
+body{ /*adicionando uma imagem de fundo -- add image on backgroud*/
+    /*background-image: url(download.jpeg);*/
+    background-color: rgb(206, 204, 204);
+}
+
+.form_login{ /*-"div father" - A div with name form_login - put in flex and center*/ /*uma div com que coloca centralizado*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{ /*div with form, input and label - config of div son*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 179, 174)  ;
+    width: 350px;
+    height: 420px;
+    margin-top: 120px;
+    border-radius: 7px;
+}
+.label__text{
+    margin-bottom: 50px;
+}
+.button__lgn{ /*button login*/
+    position: fixed;
+    left: 47.5%;
+    padding: 10px 10px 10px 10px;
+    
+}
+.button__lgn:hover{
+    cursor: pointer;
+    background-color: rgb(79, 107, 107);
+    border-radius: 5px;
+    color: white;
+}
+.label__text{
+    background-color: rgb(114, 117, 109);
+    padding: 10px 10px 10px 10px;
+
+}
+.div_novo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.novo_cadastro{
+    cursor: pointer;
+    color: white;
+    
+}
+.novo_cadastro:hover{
+    color: rgb(134, 110, 110);
+    font-size: 25px;
+}
+label, input{
+    display: block;
+    flex-wrap: wrap;
+}
+label{
+    font-size: 1.9rem;
+    text-align: center;
+}
+input{
+    border-radius: 6px;
+    height: 25px;
+    width: 250px;
+}
